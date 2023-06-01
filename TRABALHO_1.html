@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoria de Finanças</title>
+  <style>
+    /* Estilos personalizados */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+
+    section {
+      padding: 20px;
+      text-align: justify;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Consultoria de Finanças</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Bem-vindo à Consultoria de Finanças</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor. Sed tristique felis in nibh semper, ac ullamcorper massa aliquet. Aenean vel varius felis. Praesent rhoncus malesuada nisl id interdum. Fusce rutrum enim a sagittis feugiat. Morbi varius risus at nibh tincidunt, at eleifend mauris mollis. Vivamus suscipit dapibus volutpat. Integer tincidunt risus quis lectus elementum, nec varius lectus posuere. Donec pellentesque feugiat congue. Proin accumsan bibendum augue, ut blandit ligula vulputate a. Duis in semper mauris. Sed et nibh tellus. Donec tristique nulla id turpis posuere, sit amet lacinia orci pharetra. Duis in sollicitudin lectus, eu volutpat tellus. Phasellus tincidunt diam neque, et tempus dolor hendrerit eu.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Consultoria de Finanças. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+Este é um exemplo básico que você pode usar como ponto de partida para criar uma página mais complexa e personalizada. Ele inclui um cabeçalho com o nome da consultoria, uma navegação com links para diferentes seções, uma seção de conteúdo com um parágrafo de texto e um rodapé com informações de direitos autorais.
+
+Fique à vontade para adicionar mais elementos, estilos e funcionalidades de acordo com as necessidades da sua consultoria de finanças.
+
+
+
+
+
+Do utilizador
+personalize e deixe mais complexo
+ChatGPT
+Claro! Vou personalizar e adicionar mais elementos para tornar a página mais complexa. Aqui está uma versão atualizada:
+
+html
+
+Copiar código
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoria de Finanças</title>
+  <style>
+    /* Estilos personalizados */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+
+    section {
+      padding: 20px;
+      text-align: justify;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .highlight {
+      background-color: #ff6600;
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .service {
+      flex-basis: 30%;
+      padding: 20px;
+      background-color: #f2f2f2;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .service h3 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .contact-form {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #003366;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Consultoria de Finanças</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+
+
+
+<section>
+
+
+<h2>Bem-vindo à Consultoria de Finanças</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor. Sed tristique felis in nibh semper, ac ullamcorper massa aliquet. Aenean vel varius felis. Praesent rhoncus malesuada nisl id interdum. Fusce rutrum enim a sagittis feugiat. Morbi varius risus at nibh tincidunt, at eleifend mauris mollis. Vivamus suscipit dapibus volutpat. Integer tincidunt risus quis lectus elementum, nec varius lectus posuere. Donec pellentesque feugiat congue. Proin accumsan bibendum augue, ut blandit ligula vulputate a. Duis in semper mauris. Sed et nibh tellus. Donec tristique nulla id turpis posuere, sit amet lacinia orci pharetra. Duis in sollicitudin lectus, eu volutpat tellus. Phasellus tincidunt diam neque, et tempus dolor hendrerit eu.</p>
+
+    <
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor. Sed tristique felis in nibh semper, ac ullamcorper massa aliquet. Aenean vel varius felis. Praesent rhoncus malesuada nisl id interdum. Fusce rutrum enim a sagittis feugiat. Morbi varius risus at nibh tincidunt, at eleifend mauris mollis. Vivamus suscipit dapibus volutpat. Integer tincidunt risus quis lectus elementum, nec varius lectus posuere. Donec pellentesque feugiat congue. Proin accumsan bibendum augue, ut blandit ligula vulputate a. Duis in semper mauris. Sed et nibh tellus. Donec tristique nulla id turpis posuere, sit amet lacinia orci pharetra. Duis in sollicitudin lectus, eu volutpat tellus. Phasellus tincidunt diam neque, et tempus dolor hendrerit eu.</p>
+
+
+
+
+
+
+<div class="highlight">
+
+      <
+
+
+<p>Oferecemos soluções personalizadas para suas necessidades financeiras.</p>
+
+    </div
+</div>
+
+
+
+
+
+
+<div class="services">
+
+
+<div class="service">
+
+        <
+
+
+<h3>Análise Financeira</h3>
+
+        <
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+
+
+<button>Saiba mais</button>
+
+
+</div>
+
+
+<div class="service">
+
+        <
+
+
+<h3>Planejamento Tributário</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+
+
+<button>Saiba mais</button>
+
+
+</div>
+
+
+<div class="service">
+
+        <
+
+
+<h3>Consultoria de Investimentos</h3>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+
+        <
+
+
+<button>Saiba mais</button>
+      </div>
+
+
+</div>
+
+
+
+
+
+
+<div class="contact-form">
+
+
+<h3>Entre em contato</h3>
+      <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+
+
+<textarea placeholder="Mensagem"></textarea>
+        <button>Enviar</button>
+      </form>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+    <
+
+
+<p>&copy; 2023 Consultoria de Finanças. Todos os direitos reservados.</p>
+
+  </footer
+</footer>
+
+</
+</body>
+
+</
+</html>
+
+``
+N
+
+Um destino
+Uma seç
+Uma fórmula
+S
+
+
+
+
+
+Do utilizador
+terminar
+ChatGPT
+​
+
+html
+
+Copiar código
+        <h3>Consultoria de Investimentos</h3>
+
+        <
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+
+
+<button>Saiba mais</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="contact-form">
+
+
+<h3>Entre em contato</h3>
+      <form>
+
+        <
+
+
+<input type="text" placeholder="Nome">
+
+        <
+
+
+<input type="email" placeholder="E-mail">
+
+
+<textarea placeholder="Mensagem"></textarea>
+
+
+<button>Enviar</button>
+
+
+</form>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+
+<p>&copy; 2023 Consultoria de Finanças. Todos os direitos reservados.</p>
+
+
+</footer>
+
+</body
+</body>
+</html>
+Educaçao Fisica
+
+
+
+
+
+Do utilizador
+continuar
+ChatGPT
+Desculpe pela confusão anterior. Vou continuar o código HTML para você:
+
+html
+
+Copiar código
+<section>
+  <h2>Bem-vindo à Consultoria de Finanças</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor. Sed tristique felis in nibh semper, ac ullamcorper massa aliquet. Aenean vel varius felis. Praesent rhoncus malesuada nisl id interdum. Fusce rutrum enim a sagittis feugiat. Morbi varius risus at nibh tincidunt, at eleifend mauris mollis. Vivamus suscipit dapibus volutpat. Integer tincidunt risus quis lectus elementum, nec varius lectus posuere. Donec pellentesque feugiat congue. Proin accumsan bibendum augue, ut blandit ligula vulputate a. Duis in semper mauris. Sed et nibh tellus. Donec tristique nulla id turpis posuere, sit amet lacinia orci pharetra. Duis in sollicitudin lectus, eu volutpat tellus. Phasellus tincidunt diam neque, et tempus dolor hendrerit eu.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor. Sed tristique felis in nibh semper, ac ullamcorper massa aliquet. Aenean vel varius felis. Praesent rhoncus malesuada nisl id interdum. Fusce rutrum enim a sagittis feugiat. Morbi varius risus at nibh tincidunt, at eleifend mauris mollis. Vivamus suscipit dapibus volutpat. Integer tincidunt risus quis lectus elementum, nec varius lectus posuere. Donec pellentesque feugiat congue. Proin accumsan bibendum augue, ut blandit ligula vulputate a. Duis in semper mauris. Sed et nibh tellus. Donec tristique nulla id turpis posuere, sit amet lacinia orci pharetra. Duis in sollicitudin lectus, eu volutpat tellus. Phasellus tincidunt diam neque, et tempus dolor hendrerit eu.</p>
+
+  <div class="highlight">
+    <p>Oferecemos soluções personalizadas para suas necessidades financeiras.</p>
+  </div>
+
+  <div class="services">
+    <div class="service">
+      <h3>Análise Financeira</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+      <button>Saiba mais</button>
+    </div>
+    <div class="service">
+      <h3>Planejamento Tributário</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+      <button>Saiba mais</button>
+    </div>
+    <div class="service">
+      <h3>Consultoria de Investimentos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut erat commodo, efficitur mauris sed, dapibus tortor.</p>
+
+      <
+<button>Saiba mais</button>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<div class="contact-form">
+
+
+<h3>Entre em contato</h3>
+    <form>
+      <input type="text" placeholder="Nome">
+
+
+<input type="email" placeholder="E-mail">
+
+
+<textarea placeholder="Mensagem"></textarea>
+
+
+<button>Enviar</button>
+
+    </form
+</form>
+
+  </div
+</div>
+
+</
+</section>
+
+<footer>
+
+
+<p>&copy; 2023 Consultoria de Finanças. Todos os direitos reservados.</p>
+
+</
+</footer>
+
+</
+</body>
+</html>
